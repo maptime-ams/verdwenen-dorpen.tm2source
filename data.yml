@@ -2,14 +2,14 @@ _prefs:
   disabled: []
   inspector: false
   mapid: bertspaan.9f7c29b0
-  rev: s-dd038632
+  rev: s-4ff9803f
   saveCenter: true
 attribution: ''
 center: 
-  - 5.6106
-  - 52.688
-  - 11
-description: ''
+  - 5.624
+  - 52.6903
+  - 12
+description: Verdwenen Dorpen
 Layer: 
   - id: verdwenen-dorpen
     Datasource: 
@@ -30,7 +30,7 @@ Layer:
       reden: String
       type: String
     properties: 
-      "buffer-size": 8
+      "buffer-size": 512
     srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
 maxzoom: 16
 minzoom: 7
