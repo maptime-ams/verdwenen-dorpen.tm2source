@@ -1,0 +1,37 @@
+_prefs: 
+  disabled: []
+  inspector: false
+  mapid: ''
+  rev: ''
+  saveCenter: true
+attribution: ''
+center: 
+  - 5.5426
+  - 52.573
+  - 7
+description: ''
+Layer: 
+  - id: verdwenen-dorpen
+    Datasource: 
+      file: verdwenen-dorpen.json
+      layer: OGRGeoJSON
+      type: ogr
+    description: Verdwenen Dorpen
+    fields: 
+      id: String
+      bron: String
+      eindjaar_max: String
+      eindjaar_min: String
+      histopo_uri: String
+      jaar_gebeurtenis: String
+      locatie: String
+      nederzetting: String
+      periode: String
+      reden: String
+      type: String
+    properties: 
+      "buffer-size": 8
+    srs: +proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs
+maxzoom: 11
+minzoom: 0
+name: Verdwenen Dorpen
